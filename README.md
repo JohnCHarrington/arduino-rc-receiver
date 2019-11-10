@@ -2,7 +2,7 @@
 This library NO LONGER uses the built-in pulseIn function, it now uses interrupts. The main purpose of this library is just for simplifying your codes when using RC receiver.
 It should now have the high performance of interrupts while maintaining the same simple interface.
 
-The one caveat to this is that only interrupt pins are supported (and only pins 0-14, if more are interrupts they can be added to the code easily, just ask)
+The caveats to this are that the EnableInterrupt library is required, and only pins 0-14 are supported, though more can be added easily.
 
 # How to Use It
 Please take a look at the examples provided.
