@@ -12,6 +12,7 @@ Description: This library is made for using RC receiver with Arduino.
 #else
 #include "WProgram.h"
 #endif
+#include <EnableInterrupt.h>
 
 class RcChannel {
   public:
@@ -32,6 +33,8 @@ class RcChannel {
   private:
     byte pin;
     short minVal, midVal, maxVal, tolerance;
+    void isrRising();
+    void isrFalling();
 };
 
 #endif
