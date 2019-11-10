@@ -1,7 +1,6 @@
 # Introduction
-This library uses the built-in pulseIn function. The main purpose of this library is just for simplifying your codes when using RC receiver.
-It does not provide any performance boost.
-
+This library NO LONGER uses the built-in pulseIn function, it now uses interrupts. The main purpose of this library is just for simplifying your codes when using RC receiver.
+It should now have the high performance of interrupts while maintaining the same simple interface.
 # How to Use It
 Please take a look at the examples provided.
 
